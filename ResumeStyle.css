@@ -5,13 +5,13 @@
 .outer{
     width:700px;
     height:1000px;
-    border: 1px solid black;
+    box-shadow:rgb(68, 224, 252, 1)  0px 4px 6px, rgb(68, 224, 252, 1)  0px 9px 15px -1px, rgb(68, 224, 252, 1)  0px -1px 2px inset;
     margin: 0px auto;
-    background-color: black;
+    background-color: rgb(219, 216, 216);
 }
 .outer h1{
     text-align: center;
-    color: rgb(236, 86, 32) ;
+    color:rgb(236, 86, 32) ;
 }
 a{
     color: rgb(29, 116, 245);
@@ -20,7 +20,7 @@ p img{
     margin-right: 20px;
     width: 110px;
     height: 110px;
-    border: 5px solid rgb(236, 86, 32);
+    box-shadow:rgb(68, 224, 252, 1)  0px 4px 6px, rgb(68, 224, 252, 1)  0px 9px 15px -1px, rgb(68, 224, 252, 1)  0px -1px 2px inset;
     float: right;
 }
 h6 img{
@@ -31,25 +31,24 @@ h6 img{
 }
 h6{
     font-size: 16px;
-    color: white;
+    color: black;
     margin-left: 5px;
 }
 p{
     font-size: 16px;
-    color: white;
+    color: black;
     margin-left: 5px;
 }
 .border{
     width: 98.4%;
     padding: 5px;
-    background-color: rgb(236, 86, 32);
-    border: 1px solid black;
+    background-color:rgb(68, 224, 252) ;    
     font-weight: bold;
 }
 ul{
     font-size: 16px;
     margin-left: 70px;
-    color: white;
+    color: black;
 }
 table{
     border: 1px solid rgb(236, 86, 32);
@@ -57,18 +56,17 @@ table{
 }
 th{
     text-align: center;
-    color: white;
+    color: black;
     font-weight: bold;
     border: 1px solid rgb(236, 86, 32);
 }
 td{
     text-align: center;
     border: 1px solid rgb(236, 86, 32);
-    color: white;
+    color: black;
 }
 h2{
     margin-left: 450px;
     font-weight: bold;
-    color: white;
-
+    color: black;
 }
